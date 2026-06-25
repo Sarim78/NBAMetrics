@@ -1,4 +1,4 @@
-# NBAMetrics
+# NBA Metrics
 
 An end-to-end ETL pipeline that pulls NBA shot data, cleans and models it into shooting zones, and visualizes it as hex-bin shot charts and efficiency breakdowns. Built to demonstrate a full pull, clean, model, visualize data-engineering loop.
 
