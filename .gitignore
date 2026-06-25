@@ -1,8 +1,23 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Cached data and generated outputs (keep the folders, ignore contents)
 data/raw/*
 data/processed/*
 outputs/charts/*
-!.gitkeep
-.env
-.ipynb_checkpoints/
+!**/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
